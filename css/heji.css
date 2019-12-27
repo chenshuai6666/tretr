@@ -1,0 +1,93 @@
+@charset "utf-8";
+body,ul,ol,li,dl,dt,h1,h2,h3,h4,h5,h6,p,input,textarea,select,figure{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+input,textarea,select{border: none; background-color: transparent; outline: none;}
+textarea{resize: none;}
+img{border: none;vertical-align: top;}
+a{text-decoration: none;-webkit-tap-highlight-color: transparent;
+}
+
+.fl{float: left;} .fr{float: right;}
+html {-webkit-text-size-adjust: none;}
+
+.clearfix:after,.clearfix:before{content: ""; display: table;}
+.clearfix:after{clear: both;}
+.clearfix{*zoom:1;}
+.gwidth{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1160px;
+}
+.top{
+    height: 96px;
+    width: 1440px;
+    border-top: 4px solid orange;
+}
+.top .ba{
+    width:1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height:96px;
+    border:1px solid red;
+    position:relative;
+}
+.top .ba .im1{
+    width: 168px;
+    height: 80px;
+    margin-top: 5px;
+    float:left;
+}
+.top .ba .im2{
+    width: 197px;
+    height: 36px;
+    float:left;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.top .ba .baa{
+    position:absolute;
+   top:5px;
+  right:0;  
+}
+.top .ba a{
+    font-size: 12px;
+    color: black;
+   
+}
+.top .ba p{
+    font-size: 24px;
+   margin-top: 20px;
+}
+.top .ba .s{
+    font-size: 12px;
+    color: orange;
+}
+.top .ba .s1{
+    display: block;
+    height: 22px;
+    width: 77px;
+    background-image: url(images/qq.png) norepeat;
+}
+.top .ba .s2{
+    display: block;
+    height: 25px;
+    width: 25px;
+    background-image: url(images/dianhua.png) norepeat;
+}
+.top .ba p{
+    float: right;
+    margin-top: 20px;
+}
+.daohang{
+    width: 1440px;
+}
+.daohang ul{height:52px;
+background-color: black;
+
+width: 1440px;}
+.daohang ul li{
+    float:right;
+    font-size: 14px;
+    color:#fff;
+    wdith:120px;
+}
